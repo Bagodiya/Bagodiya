@@ -1,13 +1,23 @@
 # Hi, I'm Sofiya Bagodiya 👋
 
-I build full-stack web apps with **React + .NET 8** and work on low-level systems in **C++** (compilers, static analysis). I like projects that go end to end — clean UIs on top, real engineering underneath.
+PhD student at Stevens working on compilers, program analysis, and software security. I work mostly in C++ on static analysis and compiler internals, and I use large language models to find side-channel vulnerabilities in software.
 
-**Stack:** React · .NET 8 / C# · EF Core · C++17 · Python
+**Tools:** C++17 · LLVM / Clang · Python
 
-### Projects worth a look
-- 📈 [PortfolioTracker](https://github.com/Bagodiya/PortfolioTracker) — Stock portfolio platform: React + .NET 8, Alpha Vantage API, JWT/2FA auth, Chart.js dashboards
-- 🎬 [Netflix_Clone](https://github.com/Bagodiya/Netflix_Clone) — Full-stack streaming app: React + .NET 8, EF Core + MySQL, multi-profile, watch history & admin panel
-- ⚙️ [brewc](https://github.com/Bagodiya/brewc) — A minimal language and compiler written in C++17
-- 🔎 [compiler-optimization-visualizer](https://github.com/Bagodiya/compiler-optimization-visualizer) — Visualizing compiler optimization passes (Python)
+### Research interests
+
+- Compiler-introduced side channels and the correctness–security gap
+- Static and dynamic program analysis, taint analysis
+- Using large language models to find vulnerabilities
+
+### Projects
+
+- **[brewc](https://github.com/Bagodiya/brewc)** — A small programming language and
+  compiler in C++17 (lexer, parser, codegen).
+- **[compiler-optimization-visualizer](https://github.com/Bagodiya/compiler-optimization-visualizer)**
+  — Visualizes how compiler optimization passes transform code. Python.
+- **[llvm-taint-checker](https://github.com/Bagodiya)** *(in progress)* — A
+  path-sensitive Clang Static Analyzer checker that tracks tainted data from sources
+  to dangerous sinks.
 
 📫 sbagodiy@stevens.edu
